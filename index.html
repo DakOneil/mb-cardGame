@@ -9,37 +9,68 @@
     <link rel='stylesheet' href="public/css/style.css">
 </head>
 <body>
-    <header class=''>
-        <ul class='d-flex mx-auto'>
-            <li>About</li>
-            <li>Nav</li>
-            <li>Nav</li>
-            <li>Login</li>
-        </ul>
-    </header>
+        <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="/public/css/images/WAR-logo/cover.png" alt="..." height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </a> -->
+                <!-- <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"> -->
+                
+                <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li> -->
+                    <!-- <hr class="dropdown-divider"> -->
+                <!-- </li> -->
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+            <!-- </li> -->
+            </ul>
+        </div>
+        </div>
+    </nav>
+  
     <h1 class=>A Card Game</h1>
     <button id='newDeck'>New Deck</button>
     <button id='shuffleDeck'>Shuffle Deck</button>
-    <button id="draw">Draw</button>
+    
 
-    <div class="container d-flex flex-row w-100 mx-auto">
-        <div class="container d-flex flex-column col-6">
+    <div class="container-fluid d-flex flex-row w-100 mx-auto justify-content-">
+        <div class="container d-flex flex-column col-4">
             <h2>Player 1 draws a...</h2>
             <span id='playerOneCard'></span>
             <img id='p1CardImage' class='h-auto w-50' src=''>
         </div>
-    
-        <div class="container d-flex flex-column col-6">
+        <div class='container d-flex flex-column col-4'>
+            <button id="draw" class='col-2'>Draw</button>
+            <h3>Result:</h3>
+            <span id="result"></span>
+            <p id='cardsLeft'></p>
+        </div>
+        <div class="container d-flex flex-column col-4">
             <h2>Player 2 draws a...</h2>
             <span id='playerTwoCard'></span>
             <img id='p2CardImage' class='h-auto w-50' src=''>
         </div>
     </div>
 
-    <h3>Result:</h3>
-    <span id="result"></span>
-
-    <p id='cardsLeft'></p>
 
     <div class="container d-flex flex-row w-100 mx-auto">
         <div class="container d-flex flex-column col-6">

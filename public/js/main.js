@@ -99,16 +99,16 @@ async function draw() {
             addToPile([card[0],card[1]], pile2)
             document.getElementById('playerTwoPile').innerText = pile2.length
         }
-        document.getElementById('cardsLeft').innerText = 'There are ' + data.remaining + ' cards left.'
 
+        document.getElementById('cardsLeft').innerText = 'There are ' + data.remaining + ' cards left.'
 
     }
     catch(err){
         console.log(err)
     }
-
     // if (data.remaining)
 }
+
 
 /* 
 - need to seperate out the draw function so it is not all just inside there 

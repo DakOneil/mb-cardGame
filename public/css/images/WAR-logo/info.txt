@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Kingthings_Petrock_light
+font link: http://www.kingthingsfonts.co.uk/fonts/fonts.htm
+font author: Kingthings
+font author site: http://www.kingthingsfonts.co.uk/
+
+
+icon designer: Rohith M S
+icon designer link: /rohithdezinr
+        
+{"bg-gradient-0":"#1A1439","bg-gradient-1":"#CB9F98","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      
