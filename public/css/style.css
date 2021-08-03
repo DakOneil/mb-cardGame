@@ -18,3 +18,8 @@ footer {
 footer a {
     color: black;
 }
+
+.text-custom {
+    color: #271d3f;
+    text-shadow: darkslategray 0 0 1rem;
+}

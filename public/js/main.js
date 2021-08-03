@@ -145,6 +145,8 @@ async function draw() {
             document.querySelector('#p1Win').classList.toggle('hidden')
         } else if (data.remaining === 0 && pile2.length > pile1.length){
             document.querySelector('#p2Win').classList.toggle('hidden')
+        } else if (data.remaining === 0 && pile1.length === pile2.length){
+            document.querySelector('#tieGame').classList.toggle('hidden')
         }
     }
     catch(err){
